@@ -1,0 +1,67 @@
+[
+    {
+        "model": "cnn_angle_conditioned",
+        "best_val_loss": 0.3243942594528198,
+        "final_train_loss": 0.31995814338326456,
+        "final_val_loss": 0.3243942594528198,
+        "train_time_sec": 7049.311119794846,
+        "num_parameters": 170891,
+        "mse_mx": 0.1254909935593605,
+        "mse_my": 0.12102307975292206,
+        "mse_mz": 0.7153223943710327,
+        "mse_total": 0.3206121587753296,
+        "mean_error_norm": 0.9668197560310364
+    },
+    {
+        "model": "unet_angle_conditioned",
+        "best_val_loss": 0.20702051103115082,
+        "final_train_loss": 0.12048410546034574,
+        "final_val_loss": 0.21490895628929138,
+        "train_time_sec": 5451.199793815613,
+        "num_parameters": 1999723,
+        "mse_mx": 0.12525629341602326,
+        "mse_my": 0.12103503942489624,
+        "mse_mz": 0.3594799917936325,
+        "mse_total": 0.20192377805709838,
+        "mean_error_norm": 0.5920186114311218
+    },
+    {
+        "model": "transformer_self_attention_angle_conditioned",
+        "best_val_loss": 0.2706216126680374,
+        "final_train_loss": 0.26092953853309153,
+        "final_val_loss": 0.2706216126680374,
+        "train_time_sec": 1661.882159948349,
+        "num_parameters": 985059,
+        "mse_mx": 0.12533022210001946,
+        "mse_my": 0.12107108235359192,
+        "mse_mz": 0.5407400751113891,
+        "mse_total": 0.26238046288490297,
+        "mean_error_norm": 0.7988828706741333
+    },
+    {
+        "model": "fno_angle_conditioned",
+        "best_val_loss": 0.2631510037183762,
+        "final_train_loss": 0.08750762641429902,
+        "final_val_loss": 0.3053957545757294,
+        "train_time_sec": 3682.174814939499,
+        "num_parameters": 7092747,
+        "mse_mx": 0.12530343532562255,
+        "mse_my": 0.12110820367932319,
+        "mse_mz": 0.5277224445343017,
+        "mse_total": 0.25804469287395476,
+        "mean_error_norm": 0.7842050433158875
+    },
+    {
+        "model": "neural_ode_angle_conditioned",
+        "best_val_loss": 0.29091647565364837,
+        "final_train_loss": 0.27344043292105197,
+        "final_val_loss": 0.29091647565364837,
+        "train_time_sec": 82575.41707205772,
+        "num_parameters": 175691,
+        "mse_mx": 0.12522011414170264,
+        "mse_my": 0.12103468716144562,
+        "mse_mz": 0.5990831542015076,
+        "mse_total": 0.2817793130874634,
+        "mean_error_norm": 0.8626371192932129
+    }
+]
